@@ -18,9 +18,9 @@ When you open the shiny-app you will see an empty map of Milan along with a tran
 
 If you choose one or more type of highways and click the **Update Map!** button, then the corresponding streets will be rendered on the map as green or red: green if the corresponding estimate of the Road Safety Index (or Road Risk index) is bigger (smaller) than the choosen threshold, red otherwise. A useful legend will appear in the bottomleft part of the screen. 
 
-You can modify the thresholds using the slidebars appearing just under the box used to choose which index to explore. The Road Safety Index threshold ranges from 0 to 1 (since its a probability) while we decided to cut the total range of the Road Risk Index threshold from 0 to the 5, i.e. the 99.5 percentile of the estimated Roadk Risk Index values. 
+You can modify the thresholds using the slidebars appearing just under the box used to choose which index to explore. The Road Safety Index threshold ranges from 0 to 1 (since its a probability) while we decided to cut the total range of the Road Risk Index threshold from 0 to the 5, which represents the 99.5 percentile of the estimated Roadk Risk Index values. 
 
-It should be noted that the map is updated only if you click the **Update Map!** button. We choose to do this otherwise it would have been updated everytime a user would modify a threshold value. 
+It should be noted that the map is updated only if the user clicks the **Update Map!** button. This is necessary otherwise the map would have been reloaded everytime the user modifies a threshold value. 
 _____
 
 We created this app following the examples reported [here](https://github.com/rstudio/shiny-examples/tree/master/063-superzip-example) and we are extremely grateful to their authors. 
