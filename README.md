@@ -10,7 +10,7 @@ You may need to install one or more new R packages but they are all listed at th
 devtools::install_github("r-spatial/leafgl")
 ```
 
-You can find more details [here](https://github.com/r-spatial/leafgl) and you can download all the other packages from CRAN. 
+You can find more details [here](https://github.com/r-spatial/leafgl) and you can download all the other packages used for this shiny-app from CRAN. 
 
 ## A short summary of the app
 
@@ -24,3 +24,36 @@ It should be noted that the map is updated only if you click the **Update Map!**
 _____
 
 We created this app following the examples reported [here](https://github.com/rstudio/shiny-examples/tree/master/063-superzip-example) and we are extremely grateful to their authors. 
+
+____
+
+### sessionInfo()
+
+``` r
+R version 3.6.1 (2019-07-05)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 17134)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Italian_Italy.1252  LC_CTYPE=Italian_Italy.1252    LC_MONETARY=Italian_Italy.1252
+[4] LC_NUMERIC=C                   LC_TIME=Italian_Italy.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] tidyr_0.8.3        colourvalues_0.2.2 leafgl_0.1.1       leaflet_2.0.2      shiny_1.3.2       
+[6] sf_0.7-7           dplyr_0.8.3        conflicted_1.0.4  
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.2         pillar_1.4.2       compiler_3.6.1     later_0.8.0        class_7.3-15      
+ [6] tools_3.6.1        digest_0.6.20      packrat_0.5.0      memoise_1.1.0      tibble_2.1.3      
+[11] pkgconfig_2.0.2    rlang_0.4.0        DBI_1.0.0          rstudioapi_0.10    crosstalk_1.0.0   
+[16] e1071_1.7-2        htmlwidgets_1.3    classInt_0.3-3     grid_3.6.1         tidyselect_0.2.5  
+[21] glue_1.3.1         R6_2.4.0           purrr_0.3.2        magrittr_1.5       promises_1.0.1    
+[26] htmltools_0.3.6    units_0.6-3        assertthat_0.2.1   mime_0.7           xtable_1.8-4      
+[31] httpuv_1.5.1       KernSmooth_2.23-15 crayon_1.3.4 
+```
+
