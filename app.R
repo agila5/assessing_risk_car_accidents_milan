@@ -26,8 +26,8 @@ highway_type_choices <- c(
 )
 
 indexes_choices <- c(
-  "Road Safety Index" = "pred_mod1b_zero_2018",
-  "Road Risk Index" = "pred_mod1b_response_2018"
+  "Road Risk Index" = "pred_mod1b_response_2018",
+  "Road Safety Index" = "pred_mod1b_zero_2018"
 )
 
 # tiles choices
