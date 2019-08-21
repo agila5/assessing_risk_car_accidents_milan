@@ -110,10 +110,10 @@ server <- function(input, output, session) {
   
   
   observe({
-    # Take a dependency on input$update_map
+    # Take a dependency on input$update_map and input$highway_type 
     input$update_map
+    highway_type <- input$highway_type
     
-    highway_type <- isolate(input$highway_type)
     selected_index <- isolate(input$index)
     risk_threshold <- isolate(input$risk_threshold)
     safety_threshold <- isolate(input$safety_threshold)
