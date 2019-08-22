@@ -88,7 +88,7 @@ server <- function(input, output, session) {
                   min = 0, max = 5, value = 1, step = 0.1)
     } else {
       sliderInput("safety_threshold", tags$b("Choose the safety index threshold"), 
-                  min = 0, max = 1, value = 0.9, step = 0.01)
+                  min = 0, max = 1, value = 0.7, step = 0.01)
     }
   })
   
