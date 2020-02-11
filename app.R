@@ -9,7 +9,6 @@ library(colourvalues)
 library(tidyr)
 conflict_prefer("filter", "dplyr")
 
-
 # load data
 geo_milan <- read_sf("geo_milan.gpkg") %>% st_boundary() %>% st_transform(crs = 4326)
 pred2018 <- read_sf("pred2018.gpkg") %>% 

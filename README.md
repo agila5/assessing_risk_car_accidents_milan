@@ -29,31 +29,36 @@ ____
 
 ### sessionInfo()
 
-``` 
-R version 3.6.1 (2019-07-05)
-Platform: x86_64-w64-mingw32/x64 (64-bit)
-Running under: Windows 10 x64 (build 17134)
-
-Matrix products: default
-
-locale:
-LC_COLLATE=Italian_Italy.1252  LC_CTYPE=Italian_Italy.1252    LC_MONETARY=Italian_Italy.1252
-LC_NUMERIC=C                   LC_TIME=Italian_Italy.1252    
-
-attached base packages:
-stats     graphics  grDevices utils     datasets  methods   base     
-
-other attached packages:
-tidyr_0.8.3        colourvalues_0.2.2 leafgl_0.1.1       leaflet_2.0.2      shiny_1.3.2       
-sf_0.7-7           dplyr_0.8.3        conflicted_1.0.4  
-
-loaded via a namespace (and not attached):
-Rcpp_1.0.2         pillar_1.4.2       compiler_3.6.1     later_0.8.0        class_7.3-15      
-tools_3.6.1        digest_0.6.20      packrat_0.5.0      memoise_1.1.0      tibble_2.1.3      
-pkgconfig_2.0.2    rlang_0.4.0        DBI_1.0.0          rstudioapi_0.10    crosstalk_1.0.0   
-e1071_1.7-2        htmlwidgets_1.3    classInt_0.3-3     grid_3.6.1         tidyselect_0.2.5  
-glue_1.3.1         R6_2.4.0           purrr_0.3.2        magrittr_1.5       promises_1.0.1    
-htmltools_0.3.6    units_0.6-3        assertthat_0.2.1   mime_0.7           xtable_1.8-4      
-httpuv_1.5.1       KernSmooth_2.23-15 crayon_1.3.4 
+``` r
+sessionInfo()
+#> R version 3.6.2 (2019-12-12)
+#> Platform: x86_64-w64-mingw32/x64 (64-bit)
+#> Running under: Windows 10 x64 (build 18362)
+#> 
+#> Matrix products: default
+#> 
+#> locale:
+#> [1] LC_COLLATE=Italian_Italy.1252  LC_CTYPE=Italian_Italy.1252   
+#> [3] LC_MONETARY=Italian_Italy.1252 LC_NUMERIC=C                  
+#> [5] LC_TIME=Italian_Italy.1252    
+#> 
+#> attached base packages:
+#> [1] stats     graphics  grDevices utils     datasets  methods   base     
+#> 
+#> other attached packages:
+#> [1] tidyr_1.0.2        colourvalues_0.3.2 leafgl_0.1.1       leaflet_2.0.3     
+#> [5] shiny_1.4.0        sf_0.8-1           dplyr_0.8.4        conflicted_1.0.4  
+#> 
+#> loaded via a namespace (and not attached):
+#>  [1] Rcpp_1.0.3         pillar_1.4.3       compiler_3.6.2     later_1.0.0       
+#>  [5] highr_0.8          class_7.3-15       tools_3.6.2        digest_0.6.23     
+#>  [9] lifecycle_0.1.0    evaluate_0.14      memoise_1.1.0      tibble_2.1.3      
+#> [13] pkgconfig_2.0.3    rlang_0.4.4        DBI_1.1.0          crosstalk_1.0.0   
+#> [17] yaml_2.2.1         xfun_0.12          fastmap_1.0.1      e1071_1.7-3       
+#> [21] stringr_1.4.0      knitr_1.28         vctrs_0.2.2        htmlwidgets_1.5.1 
+#> [25] classInt_0.4-2     grid_3.6.2         tidyselect_1.0.0   glue_1.3.1        
+#> [29] R6_2.4.1           rmarkdown_2.1      purrr_0.3.3        magrittr_1.5      
+#> [33] promises_1.1.0     htmltools_0.4.0    units_0.6-5        assertthat_0.2.1  
+#> [37] mime_0.9           xtable_1.8-4       httpuv_1.5.2       KernSmooth_2.23-16
+#> [41] stringi_1.4.5      crayon_1.3.4
 ```
-
