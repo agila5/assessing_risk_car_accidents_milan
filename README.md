@@ -2,7 +2,7 @@
 
 We created a shiny-app to let the readers explore interactively the results of our paper. You can access it at this [link](https://agila.shinyapps.io/assessing_risk_car_accidents_milan_rsconnect/) (Warning: Clicking on the link does not open a new window in the browser, you should use right click of the mouse).
 
-If you want to execute this app locally on your computer you need to download the content of this github repository, open the `assessing_risk_car_accidents_milan.Rproj` project and run the app coded in the `app.R` file.
+If you want to execute this app locally on your computer you need to download the content of this github repository, open the `assessing_risk_car_crashes_milan.Rproj` project and run the app coded in the `app.R` file.
 
 You may need to install one or more R packages listed at the beginning of the `app.R` file. We used a new R package named `leafgl` for fast webgl rendering of the highways on leaflet maps. This package is not on CRAN yet and you can install it as follows (you need the `devtools` package which is on CRAN):
 
